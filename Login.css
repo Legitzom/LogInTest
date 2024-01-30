@@ -5,7 +5,9 @@
 }
 body {
   background-color: #c9d6ff;
-  background: linear-gradient(to bottom, #006eff, #879ada);
+  background: linear-gradient(to bottom, #006eff, #b7c2e4);
+  /* background: rgb(0,130,249);
+  background: linear-gradient(0deg, rgba(0,130,249,1) 0%, rgba(121,190,253,0) 45%, rgba(163,210,255,0) 57%, rgba(45,63,253,1) 100%); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +19,6 @@ body {
 }
 
 .container, .signup, .login{
- 
   margin: 30px 20px;
   border-radius: 30px;
   border: 2px solid black;
@@ -25,7 +26,9 @@ body {
   justify-content: center;
 }
 .container {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+
 }
 .signup, .login {
   display: flex;
